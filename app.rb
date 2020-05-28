@@ -8,6 +8,9 @@ class App < Sinatra::Base
   
   post '/team' do
     params.to_s
+    name = params[:name]
+    coach = params[:coach]
+    
   end
 
 end
